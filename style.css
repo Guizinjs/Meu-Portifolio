@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #000000 10%, #3a3939 100%);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background: linear-gradient(90deg, #000000 10%, #3a3939 100%); 
+}
+h1 {
+    font-size: 30px;
+    background: linear-gradient(90deg, #ffffff, #504f4f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Para compatibilidade */
+    color: transparent;
+    text-shadow: 7px 7px 7px rgb(197, 197, 197);
+}
+nav#botoes ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav#botoes li {
+    margin: 0;
+    padding: 0;
+}
+nav#botoes a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 6px;
+    padding: 7px 15px;
+    transition: background 0.3s;
+}
+nav#botoes a:hover {
+    background-color: rgb(65, 65, 65);
+}
+main{
+    display: block;
+    min-width: 30vh;
+    min-height: 78vh;
+    background: linear-gradient(90deg, #000000 10%, #3a3939 100%);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main h2 {
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    color: #b6b5b5;
+}
+main p {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #b6b5b5;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: #000000;
+    color: white;
+    padding: 10px;
+    padding: 0px
+}
+p#index {
+    font-size: 30px;
+}
